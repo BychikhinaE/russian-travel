@@ -1,0 +1,8 @@
+.travel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  box-sizing: border-box;
+  padding: 56px 148px 92px;
+}
