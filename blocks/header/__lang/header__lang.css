@@ -1,0 +1,7 @@
+.header__lang {
+  list-style: none;
+  display: inline-block;
+}
+.header__lang:first-child {
+  margin-right: 18px;
+}

@@ -1,0 +1,9 @@
+.places__text {
+  font-size: 18px;
+  line-height: 1.63;
+  margin: 0;
+
+}
+.places__text:nth-child(2n) {
+  margin-top: 26px;
+}
