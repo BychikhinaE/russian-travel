@@ -3,14 +3,10 @@
   display: flex;
   padding: 0;
   margin: 0;
-  justify-content: space-between;
-  width: 465px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
   .footer__resourse {
     flex-direction: column;
-    width: 100%;
-
   }
 }
