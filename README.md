@@ -5,3 +5,6 @@
 
 # Указание, что за технологии используются
 HTML CSS БЭМ flex grid адаптивная верстка
+
+# Ссылка на проект
+https://bychikhinae.github.io/russian-travel/
