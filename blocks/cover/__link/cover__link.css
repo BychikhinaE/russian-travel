@@ -1,4 +1,33 @@
 .cover__link {
   color: white;
   text-decoration: none;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 19.14% 0;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .cover__link {
+    padding: 19.04% 0;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .cover__link {
+    padding: 14.97% 0;
+}
+}
+
+@media screen and (max-width: 340px) {
+  .cover__link {
+    padding: 9.71% 0;
+}
 }

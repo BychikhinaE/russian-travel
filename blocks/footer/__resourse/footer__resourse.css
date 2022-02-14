@@ -6,3 +6,11 @@
   justify-content: space-between;
   width: 465px;
 }
+
+@media screen and (max-width: 700px) {
+  .footer__resourse {
+    flex-direction: column;
+    width: 100%;
+
+  }
+}
