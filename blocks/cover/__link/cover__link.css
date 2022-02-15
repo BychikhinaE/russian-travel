@@ -7,28 +7,28 @@
   justify-content: center;
   align-items: center;
   padding: 20.69% 0;
-  background-color: rgba(42, 44, 47, .3);
-  transition: background-color .5s ease;
+  background-color: rgba(42, 44, 47, 0.3);
+  transition: background-color 0.5s ease;
 }
 
 .cover__link:hover {
-  background-color: rgba(42, 44, 47, .8);
+  background-color: rgba(42, 44, 47, 0.8);
 }
 
 @media screen and (max-width: 1024px) {
   .cover__link {
     padding: 19.04% 0;
-}
+  }
 }
 
 @media screen and (max-width: 768px) {
   .cover__link {
     padding: 14.97% 0;
-}
+  }
 }
 
 @media screen and (max-width: 340px) {
   .cover__link {
     padding: 9.71% 0;
-}
+  }
 }
