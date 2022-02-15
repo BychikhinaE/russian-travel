@@ -3,23 +3,27 @@
   display: grid;
   row-gap: 92px;
   grid-template-columns: 1fr;
-  padding: 56px 0 24px;
+  padding: 56px 0 92px;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
   .content {
     padding-top: 48px;
-}
+  }
 }
 
 @media screen and (max-width: 768px) {
   .content {
     row-gap: 88px;
-}
+    padding-bottom: 88px;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .content {
     row-gap: 64px;
-}
+    padding-bottom: 64px;
+  }
 }

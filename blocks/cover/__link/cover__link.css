@@ -1,18 +1,19 @@
 .cover__link {
   color: white;
   text-decoration: none;
-  background-image: url(../../../images/cover-trains.jpg);
-  background-size: cover;
-  background-position: center center;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 19.14% 0;
+  padding: 20.69% 0;
+  background-color: rgba(42, 44, 47, .3);
+  transition: background-color .5s ease;
 }
 
-
+.cover__link:hover {
+  background-color: rgba(42, 44, 47, .8);
+}
 
 @media screen and (max-width: 1024px) {
   .cover__link {

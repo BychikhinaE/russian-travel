@@ -1,8 +1,6 @@
 .places__photo {
   width: 100%;
-  padding-bottom: 100%;
-  background-size: cover;
-  background-position: center;
-  align-self: start;
+  height: auto;
+  object-fit: cover;
 }
 

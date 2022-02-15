@@ -1,6 +1,11 @@
 .cover {
   box-sizing: border-box;
   padding: 0 48px;
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: contain;
+  background-position: center center;
+  background-origin: content-box;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 1024px) {
